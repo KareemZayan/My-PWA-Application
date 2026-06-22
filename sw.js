@@ -50,10 +50,7 @@ self.addEventListener('fetch', (event) => {
           return cachedResponse;
         }
 
-        return fetch(event.request)
-          .catch(() => {
-            return caches.match('/offline.html');
-          });
+        return fetch(event.request);
       })
   );
 });
