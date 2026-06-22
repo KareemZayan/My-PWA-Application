@@ -1,5 +1,5 @@
 const CACHE_NAME = "version-1";
-const cachesFiles = [
+const FILES_TO_CACHE = [
   "/",
   "/index.html",
   "/settings.html",
