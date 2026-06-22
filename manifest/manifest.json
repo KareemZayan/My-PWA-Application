@@ -1,0 +1,27 @@
+{
+  "name": "My PWA Application",
+  "short_name": "MyPWA",
+  "theme_color": "#be0027",
+  "background_color": "#a51890",
+  "display": "standalone",
+  "orientation": "any",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "./logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./logo-256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "./logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
